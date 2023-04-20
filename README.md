@@ -1,3 +1,26 @@
+# generate ssh keys
+
+    ssh-keygen -t ed25519-sk -C "YOUR_EMAIL"
+
+Add the public key to github settings->SSH and GPG keys
+
+# Git Clone repository
+click on code
+get the ssh or https url of the repo
+ex: 
+    
+    windows
+    git@github.com:girishjalli18/git-help.git
+    or 
+     ssh-keygen -t ecdsa-sk -C "your_email@example.com"
+
+    linux
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+clone the project
+    git clone --recursive git@github.com:girishjalli18/git-help.git
+
+
 # Useful git commands
 
 ## check the global is set

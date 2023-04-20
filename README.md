@@ -1,4 +1,4 @@
-# generate ssh keys
+# Generate ssh keys
 
     ssh-keygen -t ed25519-sk -C "YOUR_EMAIL"
 
@@ -10,7 +10,7 @@ get the ssh or https url of the repo
 ex: 
     
     windows
-    git@github.com:girishjalli18/git-help.git
+    git@github.com:<user_id>/git-help.git
     or 
      ssh-keygen -t ecdsa-sk -C "your_email@example.com"
 
@@ -19,15 +19,15 @@ ex:
 
 clone the project
     
-    git clone --recursive git@github.com:girishjalli18/git-help.git
+    git clone --recursive git@github.com:<user_id>/git-help.git
 
 
 # Useful git commands
 
 ## check the global is set
 
-    git config --global user.email "girishjalli18@gmail.com"
-    git config --global user.name "Girish Jalli"
+    git config --global user.email "<user_id>@gmail.com"
+    git config --global user.name "<user name>"
 
 
 ## git color output
